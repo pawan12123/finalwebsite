@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the ultimate guide to iconic American and Canadian cuisine. Explore recipes, from comfort foods like mac and cheese to regional classics like gumbo and Chicago pizza.">
+  <meta name="keywords" content="American cuisine, Canadian cuisine, recipes, comfort food, mac and cheese, BBQ, burgers, tacos, pizza, poutine, hot dogs, butter tarts">
+  <meta name="author" content="Delicious Bites">
+  <title>Delicious Bites | Iconic American and Canadian Cuisine</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom Styles */
+    body {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="font-sans bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-red-500 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">
+        <a href="#home" title="Delicious Bites - Home">Delicious Bites</a>
+      </h1>
+      <nav class="hidden md:flex space-x-4">
+        <a href="#home" class="hover:underline" title="Go to Home Section">Home</a>
+        <a href="#about" class="hover:underline" title="Learn About Us">About</a>
+        <a href="#recipes" class="hover:underline" title="Explore Recipes">Recipes</a>
+        <a href="#contact" class="hover:underline" title="Contact Us">Contact</a>
+      </nav>
+      <button id="menu-toggle" class="block md:hidden text-white focus:outline-none" title="Toggle Menu">
+        ☰
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="hidden flex-col space-y-2 mt-4 md:hidden">
+      <a href="#home" class="block hover:underline" title="Go to Home Section">Home</a>
+      <a href="#about" class="block hover:underline" title="Learn About Us">About</a>
+      <a href="#recipes" class="block hover:underline" title="Explore Recipes">Recipes</a>
+      <a href="#contact" class="block hover:underline" title="Contact Us">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-cover bg-center h-screen" style="background-image: url('https://source.unsplash.com/800x900/?food');">
+    <div class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center text-white px-4">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-semibold">
+        Ultimate Guide to Iconic American and Canadian Cuisine
+      </h2>
+      <p class="text-sm sm:text-base md:text-lg mt-4 max-w-3xl">
+        Discover iconic American dishes, from Southern comfort foods like mac and cheese and BBQ ribs to modern classics like gourmet burgers and avocado toast. Savor regional classics like gumbo and Chicago pizza.
+      </p>
+      <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold mt-6">
+        Discover the best recipes for any occasion.
+      </h3>
+      <p class="text-sm sm:text-base md:text-lg mt-4 max-w-3xl">
+        The United States boasts a rich culinary heritage influenced by diverse cultures and traditions. From smoky Southern BBQ to trendy fusion dishes, indulge in the flavors that define American innovation.
+      </p>
+      <a href="#recipes" class="mt-6 px-6 py-3 bg-red-500 rounded-full text-lg hover:bg-red-700" title="Explore Recipes">
+        Explore Recipes
+      </a>
+    </div>
+  </section>
+
+  <!-- Recipes Section -->
+  <section id="recipes" class="py-14 px-4">
+    <div class="container mx-auto">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12">Featured Recipes</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="font-bold text-xl">From Burgers to Poutine: North America's Comfort Foods</h3>
+          <p class="mt-4 text-sm text-gray-900">
+            Burgers and poutine define North America's comfort food. Juicy burgers offer endless varieties, while poutine's fries, gravy, and cheese curds are a Canadian favorite.
+          </p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="font-bold text-xl">Tantalizing Tacos: A Taste of Tradition and Creativity</h3>
+          <p class="mt-4 text-sm text-gray-900">
+            Tacos are a versatile favorite, with shells filled with seasoned meats, fresh veggies, cheese, and zesty sauces. Perfect for any meal, from traditional to modern twists.
+          </p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="font-bold text-xl">Perfect Pizzas: America's Favorite Slice</h3>
+          <p class="mt-4 text-sm text-gray-900">
+            Pizza offers endless variations with savory toppings, melty cheese, and crispy crust. From classic Margherita to creative gourmet pies, it's a universal favorite.
+          </p>
+        </div>
+        <!-- Additional Cards -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="font-bold text-xl">The Ultimate Hot Dog Haven</h3>
+          <p class="mt-4 text-sm text-gray-900">
+            Explore hot dogs like never before, from classic flavors to creative twists. Perfect for all hot dog lovers.
+          </p>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="font-bold text-xl">Mac & Cheese Magic</h3>
+          <p class="mt-4 text-sm text-gray-900">
+            Dive into creamy, cheesy goodness that defines ultimate comfort food. From classic recipes to gourmet twists, mac & cheese is a delight.
+          </p>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="font-bold text-xl">Butter Tart Bliss</h3>
+          <p class="mt-4 text-sm text-gray-900">
+            Indulge in Canada's iconic treat—flaky pastry filled with rich, caramelized filling. A perfect balance of sweetness and buttery goodness.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>&copy; 2024 Delicious Bites. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Toggle mobile menu
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
